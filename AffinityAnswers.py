@@ -14,6 +14,7 @@ for r in range(2,sheet.max_row+1):
 
     wb_id = sheet.cell(row = r, column = Id_Column).value             #Storing the unique Id for Each Tweet | Record 
     wb_content = sheet.cell(row = r, column = Content_Column).value   #reading the tweets of each person
+    
                                                                       #iterating to check our focuse words/key
     for pattern in patterns:
         if pattern in wb_content:
