@@ -18,4 +18,4 @@ for r in range(2,sheet.max_row+1):
                                                                       #iterating to check our focuse words/key
     for pattern in patterns:
         if pattern in wb_content:
-            print("Racial Slurs |", wb_id, "|", pattern)              #Print the Id's who are matching focus keywords, along with the keyword
+            print("Racial Slurs |", wb_id, "|", pattern)              #Print the Id's those are matching focus keywords, along with the keyword
